@@ -8,6 +8,7 @@ function App() {
     <div className="App">  {/*Class no react é className="" */}
      
         <h1> Olá React! </h1>
+        <h3></h3>
         <h2>Olá {name}</h2>
         <p>Soma: {2+2}</p>
         <p>Meu primeiro App</p>
