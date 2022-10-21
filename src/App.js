@@ -3,6 +3,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import NewComponent from './components/NewComponent';
 import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 
 function App() {
@@ -11,9 +12,14 @@ function App() {
   return (
     <div className="App">  {/*Class no react é className="" */}
      
-          <HelloWorld/>
+     <Pessoa profissao="Dev"
+           idade='21'
+            nome='Jonathan'
+             foto='https://via.placeholder.com/150'  />
+                  
           <SayMyName nome={Nome} idade="21"/>
-          <SayMyName nome="Paloma" idade="18"/>
+          
+          
           
             
           

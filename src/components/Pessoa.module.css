@@ -1,0 +1,12 @@
+/*Não colocar - */
+
+.PessoaCotainer{
+    background-color: #333;
+    border: 1px solid #111;
+}
+
+.PessoaContent{
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}

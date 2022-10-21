@@ -1,7 +1,9 @@
+import style from './Pessoa.module.css';
+
 function SayMyName(props) {
     return(
         <div>
-            <p>Fala ai {props.nome}, sua idade ainda é {props.idade} anos ?</p>
+            <p className={style.PessoaContent}>Fala ai {props.nome}, sua idade ainda é {props.idade} anos ?</p>
         </div>
 
     )
