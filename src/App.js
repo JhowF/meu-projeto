@@ -2,21 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld';
 import NewComponent from './components/NewComponent';
-import Frase from './components/Frase';
+import SayMyName from './components/SayMyName';
 
 
 function App() {
-  const name = 'jonathan';
+   const Nome = 'jonathan';
 
   return (
     <div className="App">  {/*Class no react é className="" */}
      
-        <p>Meu primeiro App</p>
-          <img src="" alt=""/>  {/*No react uma tag deve ser sempre fechada msm sendo uma img que é uma self close*/}
           <HelloWorld/>
-            <NewComponent/>
-            <Frase/>
-
+          <SayMyName nome={Nome} idade="21"/>
+          <SayMyName nome="Paloma" idade="18"/>
+          
+            
           
     </div>
   );
