@@ -38,3 +38,13 @@ Criamos no próprio JSX;
 */
 
 
+/*PROPS  AVANÇANDO
+
+Podemos definir tipos para as prop, realizando uma espécie de validação;
+
+Definimos em um objeo chamado propTypes no próprio componente;
+
+E ainda há posibilidade de definir um valor por padra usando o "defaultProps";
+
+*/
+

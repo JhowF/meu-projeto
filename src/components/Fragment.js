@@ -1,3 +1,6 @@
+import Item from "./props";
+
+
 function ListaFragment(){
     return(
     
@@ -5,8 +8,11 @@ function ListaFragment(){
 
         <h1> Minha Lista</h1>
         <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
+            <Item marca = "Ferrari" ano_lançamento={1985}/>
+            <Item marca = "BMW" ano_lançamento={1964}/>
+            <Item marca = "Renalta"/>
+            <Item marca = "Chevrolet" ano_lançamento={35}/>
+            <Item />
         </ul>
         </>
     )
