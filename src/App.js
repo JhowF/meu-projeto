@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import NewComponent from './components/NewComponent';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import ListaFragment from './components/Fragment';
 
 
 function App() {
@@ -16,14 +15,13 @@ function App() {
            idade='21'
             nome='Jonathan'
              foto='https://via.placeholder.com/150'  />
+
+          <ListaFragment/>
                   
           <SayMyName nome={Nome} idade="21"/>
           
-          
-          
-            
-          
     </div>
+    
   );
 }
 

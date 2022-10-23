@@ -26,4 +26,15 @@ O valor é passado como um atributo na chamado do componente;
 As props são somente leitura;
 */
 
+/*
+FRAGMENTOS
+
+Fragmentos _ Permite a criação de um elemento sem um elemento pai;
+
+O propósito é descomplicar os nós do DOM;
+A sintaxe é <>  e </>, não há um nome para a tag;
+Criamos no próprio JSX;
+
+*/
+
 
