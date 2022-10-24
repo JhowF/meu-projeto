@@ -8,13 +8,12 @@ import EventoParaFomr from './components/EventoParaFomr_useState';
 import IfRenderizazao from './components/ifRenderizazao';
 
 function App() {
-   const Nome = 'jonathan';
 
   return (
     <div className="App">  {/*Class no react é className="" */}
      
-     <h1>Renderização condicional</h1>
-     <IfRenderizazao/>
+     <h1>Testando Eventos</h1>
+     <Evento/>
    
     </div>
     
