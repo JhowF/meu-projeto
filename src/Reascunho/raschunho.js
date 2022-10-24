@@ -75,5 +75,15 @@ Podemos atrelar um evento a mudança de state;
 */
 
 /*
-Renderização por
+Renderização por condição
+
+Podemos atrelas a exibição de algum elemento a um if;
+
+Esta ação é chamada de renderização condicional;
+
+Envolvemos as tags em chaves {};
+
+Como as chaves executam JavaScript, criamos nossa condição;
+
+É possivel usar state para criar as condições;
 */

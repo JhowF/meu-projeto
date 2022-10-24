@@ -5,7 +5,7 @@ import Pessoa from './components/Pessoa';
 import ListaFragment from './components/Fragment';
 import Evento from './components/Evento';
 import EventoParaFomr from './components/EventoParaFomr_useState';
-
+import IfRenderizazao from './components/ifRenderizazao';
 
 function App() {
    const Nome = 'jonathan';
@@ -13,11 +13,9 @@ function App() {
   return (
     <div className="App">  {/*Class no react é className="" */}
      
-     <h1>Testando eventos</h1>
-     <Evento numero={1}/>
-     
-     <EventoParaFomr/>
-          
+     <h1>Renderização condicional</h1>
+     <IfRenderizazao/>
+   
     </div>
     
   );
