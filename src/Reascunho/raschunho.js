@@ -48,3 +48,16 @@ E ainda há posibilidade de definir um valor por padra usando o "defaultProps";
 
 */
 
+/*
+EVENTOS REACT
+
+Os eventos de React são os mesmo eventos do DOM;
+
+Geralmente um método é atribuido ao evento;
+
+Este método deve ser criado no componente;
+
+
+
+*/
+

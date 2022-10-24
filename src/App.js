@@ -3,6 +3,8 @@ import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import ListaFragment from './components/Fragment';
+import Evento from './components/Evento';
+import EventoParaFomr from './components/EventoParaFomr';
 
 
 function App() {
@@ -11,14 +13,10 @@ function App() {
   return (
     <div className="App">  {/*Class no react é className="" */}
      
-     <Pessoa profissao="Dev"
-           idade='21'
-            nome='Jonathan'
-             foto='https://via.placeholder.com/150'  />
-
-          <ListaFragment/>
-                  
-          <SayMyName nome={Nome} idade="21"/>
+     <h1>Testando eventos</h1>
+     <Evento numero={1}/>
+     
+     <EventoParaFomr/>
           
     </div>
     
