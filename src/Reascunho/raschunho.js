@@ -61,3 +61,19 @@ Este método deve ser criado no componente;
 
 */
 
+/*
+useState
+
+O useState é um hook do React;
+
+Com ele conseguimos manusear o estado de um componente de forma simples;
+
+este hook funciona muito bem com eventos;
+
+Podemos atrelar um evento a mudança de state;
+
+*/
+
+/*
+Renderização por
+*/
