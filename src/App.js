@@ -9,7 +9,7 @@ import Home from './components/Home';
 import Empresa from './components/empresa';
 import Contato from './components/Contato';
 import Navbar from "./components/Navbar";
-import Footer from "./Reascunho/Footer";
+import Footer from "./components/Footer";
 
 
 
