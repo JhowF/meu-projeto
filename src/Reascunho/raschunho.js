@@ -112,3 +112,48 @@ Como as chaves executam JavaScript, criamos nossa condição;
 
  É possível unir operadores condicionais com a renderização de listas;
  */
+
+
+/*
+STATE LIFT
+
+State lift é um técnica utilizada para compartilhar o state;
+
+É normal vários componentes dependederem do mesmo estado;
+
+ Então precisamos elevar o nível do mesmo a um componente pai;
+
+ Então centralizamos o state no pai, e definimos quem usa e quem define o (setState);
+
+
+ */
+
+ /*
+ REACT ROUTER
+
+ O React router é um pacote para mudanças de URLs da aplicação.
+
+ Podemos assim acessar outras views, sem o page reload;
+
+ Trocando apenas uma parte do layout da aplicação, ou seja, o que muda de view para view;
+
+ Precisamos instalar este pacote no projeto.
+
+ E também realizar algumas mudanças em como o App é estruturado;
+ */
+
+
+ /*
+ 
+ React Icons
+
+ O React Icons é um pacote de ícones externo;
+
+ Precisamos adicionar ao projeto através do npm;
+
+ Ele nos permite adicionar Ícones ao projeto com uma sintaxe parecida a de componentes;
+
+ Além disso há uma grande quantidade de ícones disponíveis;
+  
+ */
+

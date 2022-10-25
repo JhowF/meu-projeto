@@ -1,29 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-import ListaFragment from './components/Fragment';
-import Evento from './components/Evento';
-import EventoParaFomr from './components/EventoParaFomr_useState';
-import IfRenderizazao from './components/ifRenderizazao';
-import Lista from './components/Lista';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useParams
+} from "react-router-dom";
+import Home from './components/Home';
+import Empresa from './components/empresa';
+import Contato from './components/Contato';
+import Navbar from "./components/Navbar";
+import Footer from "./Reascunho/Footer";
+
+
 
 function App() {
 
-const meusItens = ['React', 'Vue', 'Angular']
-
-
   return (
-    <div className="App">  {/*Class no react é className="" */}
-     
-     <h1>Renderização de listas</h1>
-     <Lista itens={meusItens}/>
-     <Lista itens={[]}/>
+    <Router>
+     <Navbar/>
+      <Routes> {/*Vei para substituir o Switch*/}
+        <Route exact path='/' element={<Home/>}>
+          
+
+        </Route>
+        <Route path='/empresa' element={<Empresa/>}>
+          
+
+        </Route>
+        <Route path='/contato' element={<Contato/>}>
+          
+
+        </Route>
+      </Routes>
+      <Footer/>
+    </Router>
+
+    
      
    
-    </div>
     
-  );
+  )
 }
 
-export default App;
+export default App
